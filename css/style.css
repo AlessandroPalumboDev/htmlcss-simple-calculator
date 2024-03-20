@@ -17,6 +17,7 @@
     height: 800px;
     width: 500px;
     background-color: lightgray;
+    border-radius: 2%;
 }
 
 .top{
@@ -33,6 +34,14 @@
 .tastiera{
     height: 80%;
 }
+
+/* PROPRIETà TASTI */
+.grigio{
+    background-color: grey;
+}
+
+
+
 
 /* PROPRIETà FLEX */
 .d-flex{
