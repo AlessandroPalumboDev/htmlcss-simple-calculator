@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: "Happy Monkey", sans-serif
+    /* font-family: "Happy Monkey", sans-serif */
+    font-family: Michroma, sans-serif;
 }
 
 /* CENTRATORE CALCOLATRICE */
@@ -20,6 +21,8 @@ body{
 .calcolatrice{
     background-color: lightgray;
     border-radius: 2%;
+    box-shadow: 3px 3px #979696;
+
 }
 
 /* SEZIONE TOP */
@@ -39,7 +42,7 @@ body{
     background-color: black;
     height: 15%;
     color: green;
-    align-items: end;
+    text-align: right;
 }
 
 .digit{
@@ -89,7 +92,6 @@ body{
 .grande{
     border-radius: 2%;
     font-size: 30px;
-    margin: 8px;
     width: 80px;
     height: 80px;
     flex-wrap: wrap;
@@ -98,15 +100,15 @@ body{
 .piccolo{
     border-radius: 2%;
     font-size: 30px;
-    margin: 8px;
     width: 70px;
     height: 60px;
 }
 
 .tasto{
+    margin: 10px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    box-shadow: 3px 3px #979696;
 }
 
 /* CRESCITA TASTO 0 */
@@ -116,6 +118,7 @@ body{
 
 #zero{
     flex-grow: 2;
+    width: 180px;
 }
 
 #uguale{
