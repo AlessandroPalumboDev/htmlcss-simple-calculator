@@ -14,8 +14,6 @@
 
 /* SEZIONI CALCOLATRICE */
 .calcolatrice{
-    height: 800px;
-    width: 500px;
     background-color: lightgray;
     border-radius: 2%;
 }
@@ -28,11 +26,21 @@
     background-color: black;
     height: 15%;
     color: green;
+    margin-bottom: 5%;
 }
 
 /* TASTIERA */
 .tastiera{
-    height: 80%;
+
+}
+
+.tasti-piccoli{
+    align-items: end;
+}
+
+.tasti-grandi{
+    width: 80%;
+    height: 100%;
 }
 
 /* PROPRIETà TASTI */
@@ -40,6 +48,30 @@
     background-color: grey;
 }
 
+.arancio{
+    background-color: orange;
+}
+
+.azzurro{
+    background-color: aqua;
+}
+
+.grande{
+    border-radius: 2%;
+    font-size: 30px;
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+    flex-wrap: wrap;
+}
+
+.piccolo{
+    border-radius: 2%;
+    font-size: 30px;
+    margin: 8px;
+    width: 70px;
+    height: 60px;
+}
 
 
 
@@ -54,4 +86,20 @@
 
 .a-item-center{
     align-items: center;
+}
+
+.f-direction-column{
+    flex-direction: column;
+}
+
+.f-direction-column-reverse{
+    flex-direction: column-reverse;
+}
+
+.f-direction-row{
+    flex-direction: row;
+}
+
+.f-direction-row-reverse{
+    flex-direction: row-reverse;
 }
