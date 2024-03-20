@@ -112,15 +112,8 @@ body{
 }
 
 /* CRESCITA TASTO 0 */
-.row-4{
-    display: flex;
-}
 
 #zero{
     flex-grow: 2;
     width: 180px;
-}
-
-#uguale{
-    flex-grow: 0;
 }
