@@ -20,7 +20,7 @@ body{
 /* SEZIONI CALCOLATRICE */
 .calcolatrice{
     border-radius: 2%;
-    box-shadow: 3px 3px #979696;
+    box-shadow: 3px 3px #474545;
     background: rgb(236,236,236);
     background: linear-gradient(90deg, rgba(236,236,236,1) 0%, rgba(98,98,98,1) 100%, rgba(103,102,102,1) 100%);
 }
@@ -47,7 +47,7 @@ body{
 
 .digit{
     display: inline-block ;
-    padding: 20px 5px;
+    padding: 20px 10px;
     font-size: 50px;
 }
 
@@ -74,15 +74,15 @@ body{
 
 /* PROPRIETà TASTI */
 .grigio{
-    background-color: grey;
+    background-color: rgb(145, 143, 143);
 }
 
 .arancio{
-    background-color: rgb(100, 8, 88);
+    background-color: rgb(153, 97, 12);
 }
 
-.azzurro{
-    background-color: rgb(64, 86, 126);
+.verde{
+    background-color: rgb(34, 92, 65);
 }
 
 .bianco{
@@ -108,7 +108,7 @@ body{
     margin: 10px;
     border: none;
     border-radius: 10px;
-    box-shadow: 3px 3px #979696;
+    box-shadow: 3px 3px #474545;
 }
 
 /* CRESCITA TASTO 0 */
