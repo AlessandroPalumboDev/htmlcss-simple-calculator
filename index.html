@@ -4,19 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
     <title>Calcolatrice</title>
 </head>
 <body>
+    <!-- CENTRATORE -->
     <div class="center">
+
+        <!-- BLOCCO CALCOLATRICE -->
         <div class="calcolatrice ">
-            <div class="top d-flex j-content-center a-item-center">
-                <span>BOOSIO</span>
+
+            <!-- PARTE TOP DELLA CALCOLATRICE -->
+            <div class="top ">
+                <span class="marca">BOOSIO</span>
             </div>
+
+            <!-- SCHERMO CALCOLATRICE -->
             <div class="schermo">
                 <span class="digit">0</span>
             </div>
-            <div class="tastiera d-flex f-direction-row">
-                <div class="tasti-grandi d-flex f-direction-column j-content-center a-item-center">
+
+            <!-- TASTIERA DELLA CALCOLATRICE -->
+            <div class="tastiera">
+
+                <!-- TASTI GRANDI DELLA CALCOLATRICE -->
+                <div class="tasti-grandi">
                     <div class="row-1">
                         <input class="tasto grigio grande"type="button" value="7">
                         <input class="tasto grigio grande"type="button" value="8">
@@ -33,25 +48,21 @@
                         <input class="tasto grigio grande"type="button" value="3">
                     </div>
                     <div class="row-4">
-                        <input class="tasto grigio grande"type="button" value="0">
+                        <input id="zero" class="tasto grigio grande"type="button" value="0">
                         <input class="tasto arancio grande"type="button" value="&equals;">
                     </div>
                 </div>
-                <div class="tasti-piccoli d-flex f-direction-column">
+
+                <!-- TASTI PICCOLI DELLA CALCOLATRICE -->
+                <div class="tasti-piccoli">
                     <input class="tasto arancio piccolo"type="button" value="C">
                     <input class="tasto azzurro piccolo"type="button" value="&plus;">
                     <input class="tasto azzurro piccolo"type="button" value="&minus;">
                     <input class="tasto azzurro piccolo"type="button" value="&times;">
                     <input class="tasto azzurro piccolo"type="button" value="&divide;">
-
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-    
 </body>
 </html>
