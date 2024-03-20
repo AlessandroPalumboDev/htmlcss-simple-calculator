@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTENITORE CALCOLATRICE */
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* SEZIONI CALCOLATRICE */
+.calcolatrice{
+    height: 800px;
+    width: 500px;
+    background-color: lightgray;
+}
+
+.top{
+    height: 20%;
+}
+
+.schermo{
+    background-color: black;
+    height: 15%;
+    color: green;
+}
+
+/* TASTIERA */
+.tastiera{
+    height: 80%;
+}
+
+/* PROPRIETà FLEX */
+.d-flex{
+    display: flex;
+}
+
+.j-content-center{
+    justify-content: center;
+}
+
+.a-item-center{
+    align-items: center;
+}
